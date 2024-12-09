@@ -1,0 +1,30 @@
+{
+  "name": "drizzle-twitch",
+  "version": "1.0.0",
+  "main": "index.js",
+  "exports": "./dist/server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "pkgroll",
+    "start": "node dist/server.js"
+  },
+  "keywords": [],
+  "author": "bluuweb",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.1",
+    "drizzle-kit": "^0.30.0",
+    "pkgroll": "^2.5.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^0.10.4",
+    "dotenv": "^16.4.7",
+    "drizzle-orm": "^0.38.0",
+    "express": "^4.21.2"
+  }
+}
